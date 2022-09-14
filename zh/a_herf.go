@@ -58,6 +58,7 @@ func  htmlfile(filename string,next_path string,last_path string)(error){
        }
        //fmt.Println(string(f))
      return err
+    return err
 }
 func nextandlast(filenames []string,index int )(filename string,next_path string,last_path string){
         fmt.Println(index,"   ---",index+1)
